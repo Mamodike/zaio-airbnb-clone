@@ -1,0 +1,87 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Kim Mort",
+        "email": "kim@example.com",
+        "phone": "1-758-7852-485"
+      },
+      {
+        "id": 2,
+        "name": "Zoe Shecg",
+        "email": "zoe@example.com",
+        "phone": "1-745-7964-588"
+      },
+      {
+        "email": "john.doe@example.com",
+        "password": "$2a$10$z6JgApMYxWkJeIApOqCok.6RfkoQoSkqLbOsJDjcquaeEPXtY2xfm",
+        "name": "Joe Doe",
+        "id": 3
+      },
+      {
+        "email": "nonty@example.com",
+        "password": "$2a$10$slFdYFEWL73NdsjR0FXvDuda/8KUSQ.DWfLwLZen/9u2z5TX7N8O2",
+        "name": "Mamodike Rakgoale",
+        "id": 4
+      }
+    ],
+    "bookings": [
+      {
+        "id": 1,
+        "startDate": "2024-06-28",
+        "endDate": "2024-06-30",
+        "userId": 1
+      }
+    ],
+    "listings": [
+      {
+        "id": 1,
+        "img": "https://a0.muscache.com/im/pictures/miso/Hosting-577907266856058227/original/8143de64-4e3a-433e-8bc5-f333ef75fc1a.jpeg?im_w=720",
+        "title":"Rooftop, No Load/watershedding, Luxury",
+        "description":"Entire home in Umhlanga, South Africa",      
+        "bath_num": 3,
+        "bed_num": 4,
+        "zip": 12458,
+        "address": "134 Mayne Court",
+        "city": "MyCity",
+        "street": "Cunan St",
+        "price": "R1200 / night",
+        "sq_ft": 4.2,
+        "email": "kim@example.com",
+        "userId": 2
+      },
+      {
+        "id": 2,
+        "img": "https://a0.muscache.com/im/pictures/monet/Luxury-24231390/original/f83cc5f5-670d-47b6-95a6-eea00f73c7d6?im_w=720",
+        "title":"Beach House",
+        "description":"Entire villa in Cape Town, South Africa",      
+        "bath_num": 2,
+        "bed_num": 3,
+        "zip": 1458,
+        "address": "134 Mayne Court",
+        "city": "MyCity",
+        "street": "Cunan St",
+        "price": "R800 / night",
+        "sq_ft": 4.2,
+        "email": "zoe@example.com",
+        "userId": 2
+      },
+      {
+        "id": 3,
+        "img": "https://a0.muscache.com/im/pictures/c136020a-4db8-4bc1-851e-8bee0a87ea54.jpg?im_w=720",
+        "title":"BHermitage Vista",
+        "description":"arm stay in Ladismith, South Africa",      
+        "bath_num": 2,
+        "bed_num": 5,
+        "zip": 1582,
+        "address": "134 Mayne Court",
+        "city": "MyCity",
+        "street": "Cunan St",
+        "price": "R1000 / night",
+        "sq_ft": 4.2,
+        "email": "mamodike@example.com",
+        "userId": 4
+      }
+  
+    ]
+  }

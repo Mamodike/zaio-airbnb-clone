@@ -1,0 +1,44 @@
+.banner{
+  height: 65vh;
+  position: relative;
+  background: url('/src/assets/living-room1.jpg');
+}
+
+.banner-info {
+  background-color: black;
+  color: #fff;
+  padding-top: 18vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner-info > button {
+  background-color: #ff7779;
+  color: #fff;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner-info > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
+
+.banner-info > h5 {
+  margin-top: 10px;
+}
+
+.banner-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-search-btn {
+  background-color: #fff !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color:#ff7779 !important;
+}

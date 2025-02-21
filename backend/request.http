@@ -1,0 +1,57 @@
+#GET ALL USERS
+
+GET http://localhost:5000/users
+###
+
+#GET A SINGLE USER
+GET http://localhost:5000/users/1
+###
+
+# REGISTER A USER
+POST http://localhost:5000/register
+Content-Type: application/json
+
+ {
+    "name": "Mamodike Rakgoale",
+    "password": "pasd123wod",
+    "email": "mamodike@example.com"
+}
+###
+
+# SIGNIN 
+
+POST http://localhost:5000/signin
+Content-Type: application/json
+
+ {
+    "name": "Mamodike Rakgoale",
+    "password": "pasd123wod",
+    "email": "mamodike@example.com"
+}
+### 
+
+# GET ALL BOOKINGS
+GET http://localhost:5000/bookings
+###
+
+# GET A SINGLE USER BOOKINGS
+GET http://localhost:5000/users/1/bookings
+###
+
+#GET ALL LISTINGS
+GET http://localhost:5000/listings
+
+
+
+
+
+
+# POST http://localhost:5000/posts 
+# content-type: application/json
+
+# {
+  
+#     "title": "airbnb clone",
+#     "author": "Mamodike"
+  
+# }
