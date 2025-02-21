@@ -19,7 +19,7 @@
         "id": 3
       },
       {
-        "email": "nonty@example.com",
+        "email": "mamodike@example.com",
         "password": "$2a$10$slFdYFEWL73NdsjR0FXvDuda/8KUSQ.DWfLwLZen/9u2z5TX7N8O2",
         "name": "Mamodike Rakgoale",
         "id": 4
@@ -28,8 +28,8 @@
     "bookings": [
       {
         "id": 1,
-        "startDate": "2024-06-28",
-        "endDate": "2024-06-30",
+        "startDate": "2025-06-28",
+        "endDate": "2025-06-30",
         "userId": 1
       }
     ],
